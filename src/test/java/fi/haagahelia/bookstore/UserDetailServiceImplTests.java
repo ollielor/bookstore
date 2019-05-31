@@ -6,16 +6,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import fi.haagahelia.bookstore.web.BookController;
+import fi.haagahelia.bookstore.web.UserDetailServiceImpl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BookstoreApplicationTests {
+public class UserDetailServiceImplTests {
 
 	@Autowired
-	private BookController controller;
+	private UserDetailServiceImpl controller;
 	
 	@Test
 	public void contextLoads() throws Exception {
